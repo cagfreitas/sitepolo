@@ -1,0 +1,63 @@
+*{
+    background-color: #000030;
+}
+.container {
+  width: 20%;
+  margin-top: 20%;
+  margin-left: 40%;
+  position: absolute;
+}
+
+.form-contact {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
+
+.contato {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+
+.button {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: .8;
+  cursor: pointer;
+  background: #084B8A;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #0B2161;
+  border-right: 1px solid #0B2161;
+  transition: 1s;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width:800px) {
+  
+  .container{
+    margin:0 auto;
+    margin-left: 30%;
+    margin-top:30%;
+    position: absolute;
+    width: 40%;
+    background: #000030;
+
+  }
